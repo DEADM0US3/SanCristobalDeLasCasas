@@ -1,8 +1,10 @@
+import homeImage from '../../img/homeImage.webp'
 
 
 const Home = () => {
     return(
-        <div>
+        <div style={{backgroundImage:homeImage , }} className="">
+
         </div>
     )
 }
