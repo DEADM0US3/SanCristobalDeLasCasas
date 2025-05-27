@@ -21,11 +21,6 @@ export const GalleryImg: Gallery[] = [
         category: 'festividades'
     },
     {
-        src: '/img/mar.webp',
-        alt: 'mar',
-        category: 'lugares'
-    },
-    {
         src: '/img/cueva.webp',
         alt: 'caverna',
         category: 'lugares'
@@ -38,11 +33,6 @@ export const GalleryImg: Gallery[] = [
     {
         src: '/img/estructuras.webp',
         alt: 'castillo',
-        category: 'lugares'
-    },
-    {
-        src: '/img/cabaña.webp',
-        alt: 'cabaña',
         category: 'lugares'
     },
     {
