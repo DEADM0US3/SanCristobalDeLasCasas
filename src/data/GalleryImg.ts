@@ -5,6 +5,7 @@ export interface Gallery {
 }
 
 export const GalleryImg: Gallery[] = [
+
     {
         src: '/img/Restaurantes.webp',
         alt: 'restaurante rustico',
@@ -35,6 +36,7 @@ export const GalleryImg: Gallery[] = [
         alt: 'castillo',
         category: 'lugares'
     },
+
     {
         src: '/img/calles.webp',
         alt: 'calles',
