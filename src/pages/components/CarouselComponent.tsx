@@ -42,7 +42,7 @@ const CarouselComponent = () => {
     return (
         <>
             <div className=" z- w-[100%] mb-10 h-[40dvh] flex flex-col justify-center items-center p-5">
-                <Carousel className="custom-carousel" value={products} numVisible={4} numScroll={1} showIndicators={true} itemTemplate={carouselTemplate} />
+                <Carousel className="custom-carousel z-10" value={products} numVisible={4} numScroll={1} showIndicators={true} itemTemplate={carouselTemplate} />
             </div>
         </>
     )
