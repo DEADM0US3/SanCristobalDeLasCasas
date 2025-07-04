@@ -88,7 +88,7 @@ const BaseComponent = () => {
                                 </p>
                             </NavLink>
 
-                            <a href={"/Tours"}
+                            <a href={"/#/Tours"}
                                 className=" cursor-pointer hover:ring-2 ring-white rounded-lg px-5 py-3 flex items-center justify-start gap-4 w-full">
                                 <div
                                     style={{ backgroundImage: `url(${tour})` }}
