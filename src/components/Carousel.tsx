@@ -1,23 +1,32 @@
 import { useEffect, useState } from "react";
+import img1 from "../../img/1.webp";
+import img10 from "../../img/10.webp";
+import img11 from "../../img/11.webp";
+import img100 from "../../img/100.webp";
+import img101 from "../../img/101.webp";
+import img110 from "../../img/110.webp";
+import img111 from "../../img/111.webp";
+import img1000 from "../../img/1000.webp";
+import img1011 from "../../img/1011.webp";
+import img1100 from "../../img/1100.webp";
+import img1110 from "../../img/1110.webp";
+import img1111 from "../../img/1111.webp";
 
 const images = [
-  { url: "../img/1.webp", title: "Andador Eclesiástico" },
-  { url: "../img/10.webp", title: "Andador Eclesiástico" },
-  { url: "../img/11.webp", title: "Andador Eclesiástico" },
-  { url: "../img/100.webp", title: "Andador Eclesiástico" },
-  { url: "../img/101.webp", title: "Andador Eclesiástico" },
-  { url: "../img/110.webp", title: "Andador Eclesiástico" },
-  { url: "../img/111.webp", title: "Andador Eclesiástico" },
-  { url: "../img/1000.webp", title: "Andador Eclesiástico" },
-  { url: "../img/1011.webp", title: "Andador Eclesiástico" },
-  { url: "../img/1100.webp", title: "Andador Eclesiástico" },
-  { url: "../img/1110.webp", title: "Andador Eclesiástico" },
-  { url: "../img/1111.webp", title: "Andador Eclesiástico" },
-  { url: "../img/101.webp", title: "Andador Eclesiástico" },
-  { url: "../img/110.webp", title: "Andador Eclesiástico" },
-  { url: "../img/111.webp", title: "Andador Eclesiástico" },
-  { url: "../img/1000.webp", title: "Andador Eclesiástico" },
+  { url: img1, title: "Andador Eclesiástico" },
+  { url: img10, title: "Andador Eclesiástico" },
+  { url: img11, title: "Andador Eclesiástico" },
+  { url: img100, title: "Andador Eclesiástico" },
+  { url: img101, title: "Andador Eclesiástico" },
+  { url: img110, title: "Andador Eclesiástico" },
+  { url: img111, title: "Andador Eclesiástico" },
+  { url: img1000, title: "Andador Eclesiástico" },
+  { url: img1011, title: "Andador Eclesiástico" },
+  { url: img1100, title: "Andador Eclesiástico" },
+  { url: img1110, title: "Andador Eclesiástico" },
+  { url: img1111, title: "Andador Eclesiástico" },
 ];
+
 
 const Carousel: React.FC = () => {
   const itemsPerPage = 4;
