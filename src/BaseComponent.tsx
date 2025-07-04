@@ -45,7 +45,7 @@ const BaseComponent = () => {
 
                         <div onClick={onClick} style={{ visibility: open ? "visible" : "hidden" }}
                             className=" backdrop-blur-xs h-fit w-fit gap-10  border-2 p-10 rounded-3xl border-white flex flex-col justify-center gap-1 items-center text-white flex text-2xl items-start">
-                            <NavLink to={"/#/Atractivos&Actividades"}
+                            <NavLink to={"/Atractivos&Actividades"}
                                 className=" cursor-pointer hover:ring-2 ring-white rounded-lg px-5 py-3 flex items-center justify-start gap-4 w-full">
                                 <div
                                     style={{ backgroundImage: `url(${atractivos})` }}
@@ -55,7 +55,7 @@ const BaseComponent = () => {
                                     Atractivos y Actividades
                                 </p>
                             </NavLink>
-                            <NavLink to={"/#/Festividades"}
+                            <NavLink to={"/Festividades"}
                                 className=" cursor-pointer hover:ring-2 ring-white rounded-lg px-5 py-3 flex items-center justify-start gap-4 w-full">
                                 <div
                                     style={{ backgroundImage: `url(${actividades})` }}
@@ -66,7 +66,7 @@ const BaseComponent = () => {
                                 </p>
                             </NavLink>
 
-                            <NavLink to={"/#/Hoteles"}
+                            <NavLink to={"/Hoteles"}
                                 className=" cursor-pointer hover:ring-2 ring-white rounded-lg px-5 py-3 flex items-center justify-start gap-4 w-full">
                                 <div
                                     style={{ backgroundImage: `url(${hoteles})` }}
@@ -77,7 +77,7 @@ const BaseComponent = () => {
                                 </p>
                             </NavLink>
 
-                            <NavLink to={"/#/Restaurantes"}
+                            <NavLink to={"/Restaurantes"}
                                 className=" cursor-pointer hover:ring-2 ring-white rounded-lg px-5 py-3 flex items-center justify-start gap-4 w-full">
                                 <div
                                     style={{ backgroundImage: `url(${restaurante})` }}
